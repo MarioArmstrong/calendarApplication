@@ -4,32 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link src="./assets/css/style.css"> //link to stylesheet
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"><!--Bootstrap CSS link ver 5.2.0-->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"/>Bootstrap CSS link ver 4.5.0 -->
+    <link rel="stylesheet" href="./assets/css/style.css"> <!--link to my stylesheet-->
     <title>Calendar App</title>
 </head>
 <body>
-    <header>
-
+    <header id="header" class="jumbotron">
+        <h1>Word Day Scheduler</h1>
+            <p>A simple calendar for scheduling your work day.</p>
+            <div id="displayTodaysDate">Date will display here</div>
     </header>
-
-    <main>
-        <section>
-
+        <section class="d-xl-flex flex-row mb-3" id="displayHourChunks">
+            <p id="hour" class="p-3"></p>
+            <div class="p-3 text-bg-success"></div>
+            <button type="button" class="btn btn-primary p-3"></button>
         </section>
 
-        <section>
-
-        </section>
-
-        <section>
-            
-        </section>
-
-    </main>
-
-    <footer>
-
-    </footer>
- <script href="./assets/js/script.js"></script>   
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script><!--Moment JS link-->
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script><!--Bootstrap JS link-->
+ <script src="./assets/js/script.js"></script>   
 </body>
 </html>
