@@ -8,3 +8,4 @@ The code works and is functional, but the only thing is that it is not as optimi
 
 The one detail that I could not figure out how to fix is the save button size, and the icon for the submit button. The size of the button is too large in my opinion and I tried to make it smalled, but the methods I was using either made it too big which caused it to go to separate row, or the size changes had no visable effects.
 
+![calendarApp Screenshot](https://user-images.githubusercontent.com/89109707/180594709-321d305d-d2fa-4427-920a-9523fc6ddfcf.jpg)
