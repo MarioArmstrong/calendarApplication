@@ -4,5 +4,7 @@ gitHub Repository Link: https://github.com/MarioArmstrong/calendarApplication
 
 gitHub Live Link: https://marioarmstrong.github.io/calendarApplication/
 
-The assignment is not done, but will be submitted as is. Tutoring time has been set aside for help with this assignment.
-![calendarApp screenshot](https://user-images.githubusercontent.com/89109707/179911963-e0a0a070-32b1-4f0a-be74-aff2a34fc66a.jpg)
+The code works and is functional, but the only thing is that it is not as optimized as it could be. There are variables, if statement, and event listeners that can be optimized by using a forloop. I will have to submit the optimized version separately once I get it working.
+
+The one detail that I could not figure out how to fix is the save button size, and the icon for the submit button. The size of the button is too large in my opinion and I tried to make it smalled, but the methods I was using either made it too big which caused it to go to separate row, or the size changes had no visable effects.
+
