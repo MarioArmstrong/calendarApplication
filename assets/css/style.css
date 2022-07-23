@@ -4,3 +4,16 @@
     align-items: center;
     
 }
+
+#displayHourChunks1 {
+    margin-top: 10px;
+}
+
+#pTag {
+    border-bottom: 3px dotted black;
+}
+
+.imgIcon{
+    height: 70%;
+    width: 70%;
+}
